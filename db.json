@@ -1,0 +1,71 @@
+{
+  "data": [
+    {
+      "first_name": "Emma",
+      "last_name": "Wong123",
+      "email": "emma.wong@reqres.in",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/10-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    },
+    {
+      "first_name": "ELLURU",
+      "last_name": "SANTHOSH",
+      "email": "ellurusanthosh37@gmail.com",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg",
+      "id": 8
+    },
+    {
+      "first_name": "ELLURU",
+      "last_name": "SANTHOSH",
+      "email": "ellurusanthosh37@gmail.com",
+      "avatar": "https://www.w3schools.com/w3images/avatar2.png",
+      "id": 14
+    },
+    {
+      "first_name": "hussian",
+      "last_name": "k",
+      "email": "k@gmail.com",
+      "avatar": "https://static.toiimg.com/photo/76729750.cms",
+      "id": 15
+    },
+    {
+      "first_name": "Geetha",
+      "last_name": "S",
+      "email": "g@gmail.com",
+      "avatar": "https://www.w3schools.com/w3images/avatar2.png",
+      "id": 16
+    },
+    {
+      "first_name": "jothi",
+      "last_name": "basu",
+      "email": "jothi@gmail.com",
+      "avatar": "https://www.w3schools.com/w3images/avatar2.png",
+      "id": 17
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}

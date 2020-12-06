@@ -1,0 +1,28 @@
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.panel {
+    margin-bottom: 0px;
+    background-color: #fff;
+    border-radius: 0px;
+    border-top: 0px;
+}
+.btn{
+    margin-left: 20px;
+
+}
+h1, h3{
+    font-family: "Satisfy", sans-serif;
+    color: rgba(27, 27, 27, 0.699);
+}
+h1,h3 span{
+    color: #0805c99a;
+}
+h5{
+    /* font-family: "Satisfy", sans-serif; */
+    color: rgba(27, 27, 27, 0.699);
+}
+h5 span{
+    color: #0805c99a;
+}

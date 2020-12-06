@@ -1,0 +1,32 @@
+<div class="container text-capitalize">
+    <h1>Employee <span> Page</span></h1>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Workforce</a>
+            </div>
+            <button class="btn btn-primary navbar-btn" (click)="onSelectEmployee()">Employee</button>
+            <button class="btn btn-primary navbar-btn" (click)="onSelectAddEmployee()">Add-Employee</button>
+        </div>
+    </nav>
+    <div class="panel panel-default" >
+        <div class="panel-body" >
+            <h3>total of <span> {{total}}</span> employess</h3>
+            <div class="row"  class="text-uppercase">
+                <div class="col-md-3 w3-animate-zoom" *ngFor="let data of item" (click)="onInfo(data)" >
+                    <a class="text-capitalize">
+                        <div class="thumbnail">
+                            <img src="{{data.avatar}}" style="width: 100%;" alt="">
+                            <div class="caption" style="overflow: hidden;">
+                                <h5 class="text-capitalize">{{data.first_name}}<span> {{data.last_name}}</span></h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <ul class="pagination"  *ngFor="let data of counter(totalPages);let i = index" (click)="onPageClick(i)">
+            <li><a>{{i+1}}</a></li>
+          </ul>
+    </div>
+</div>
